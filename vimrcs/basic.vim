@@ -30,7 +30,13 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Sets how many lines of history VIM has to remember
+" Show line number
+set nu
+
+" Let mouse be the normal and visual mode
+set mouse=nv
+
+"Sets how many lines of history VIM has to remember
 set history=500
 
 " Enable filetype plugins
